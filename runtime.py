@@ -3083,6 +3083,7 @@ with gr.Blocks(theme=gr.themes.Soft(), title="Mangio-RVC-Web 💻") as app:
         inbrowser=not config.noautoopen,
         server_port=config.listen_port,
         quiet=False,
+        share=False,
     )       
 
 # endregion
